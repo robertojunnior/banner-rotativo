@@ -4,11 +4,15 @@ Codigo criado para banner responsivo e rotativo com alternância em 5 segundos e
 <h1>Tecnologias</h1>
 
 <ul>
-  <li> html </li>
-  <li> css </li>
+  <li font-size="16px"> html </li>
+  <li font-size="16px"> css </li>
  </ul>
  
- <h3> Imagens inclusas na pasta apenas modelos para exemplo.
- <p> Basta aplicar em seu código, alterar "width e o height" que deseja e está pronto. 😁🚀
+ <p> Imagens inclusas na pasta apenas para exemplo.
+ <p> Basta aplicar em seu código, alterar as imagens, alterar "width e o height" que deseja e está pronto. 😁🚀
+ <br>
+ <p> Para ver o deploy do código <a href="">Clique aqui!</a>
+ 
+ 
  <br>
  <h3> Obrigado por visitar este repositório! 🖖
