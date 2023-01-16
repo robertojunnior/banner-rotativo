@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="banner">
+        <img src="./imagem/image1.jpg" class="active">
+        <img src="./imagem/image2.jpg">
+        <img src="./imagem/image3.jpg">
+    </section>
+
+    <script>
+        // Get the banner container
+        var banner = document.querySelector(".banner");
+        
+        // Get all banner images
+        var images = banner.querySelectorAll("img");
+        
+        // Set the index for the active image
+        var index = 0;
+        
+        // Function to change the active image
+        function changeBanner() {
+          // Remove the active class from all images
+          for (var i = 0; i < images.length; i++) {
+            images[i].classList.remove("active");
+          }
+          
+          // Add the active class to the current image
+          images[index].classList.add("active");
+          
+          // Update the index for the next image
+          index++;
+          
+          // If the index is greater than the number of images, reset it to 0
+          if (index >= images.length) {
+            index = 0;
+          }
+        }
+        
+        // Call the changeBanner function every 3 seconds
+        setInterval(changeBanner, 5000);
+      </script>
+    
+</body>
+</html>

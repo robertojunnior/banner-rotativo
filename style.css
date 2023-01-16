@@ -1,0 +1,29 @@
+
+/* Define a class for the banner container */
+body {
+    margin: 0;
+}
+
+.banner {
+width: 100vh;
+height: 300px;
+overflow: hidden;
+position: relative;
+}
+
+/* Define a class for the banner images */
+.banner img {
+width: 100%;
+height: 100%;
+position: absolute;
+top: 0;
+left: 0;
+object-fit: cover;
+transition: opacity 1.5s ease-in-out;
+opacity: 0;
+}
+
+/* Define a class for the active image */
+.banner img.active {
+opacity: 1;
+}
