@@ -11,7 +11,7 @@ Código simples criado para banner responsivo e rotativo com alternância em 5 s
  <p> Imagens inclusas na pasta apenas para exemplo.
  <p> Basta aplicar em seu código, alterar as imagens, alterar "width e o height" que deseja e está pronto. 😁🚀
  <br>
- <p> Para ver o deploy do código <a href="https://robertojunnior.github.io/banner-rotativo/">Clique aqui!</a>
+ <p> Para ver o deploy do código <a href="">Clique aqui!</a>
  
  
  <br>
